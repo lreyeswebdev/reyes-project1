@@ -25,7 +25,7 @@ h1 {
 h2 {
     font-family: 'Quicksand';
     font-size: 2rem;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .container {
@@ -36,6 +36,7 @@ h2 {
     height: 800px;
     
 }
+
 
 #button-div {
     text-align: center;
@@ -51,7 +52,6 @@ h2 {
     cursor: pointer;
     text-align: center;
     box-shadow: 0 9px #999;
-    
 }
 
 #helloBtn:hover {background-color: #74ebd5}
