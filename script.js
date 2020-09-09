@@ -12,7 +12,16 @@ helloBtn.onclick = () => {
 const displayInput = document.getElementById("displayInput");
 const submitBtn = document.getElementById("submitBtn");
 const inputName = document.getElementById("inputName");
+const helloBtn2 = document.getElementById("helloBtn2");
 
 submitBtn.onclick = () => {
     displayInput.innerHTML = inputName.value;
+}
+
+helloBtn2.onclick = () => {
+    if (inputName.value === "") {
+        displayInput.innerHTML = "Please input a name below.";
+    } else {
+        displayInput.innerHTML = "Hello, " + inputName.value;
+    }
 }
