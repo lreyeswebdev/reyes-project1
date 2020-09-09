@@ -98,7 +98,7 @@ label {
     margin-bottom: 5px;
 }
 
-#inputName {
+#inputName, #nameSelected {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,4 +141,27 @@ input[type=text] {
     background-color: #acb6e5;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+#nameKeys {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+#nameKeys button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#nameKeys button:hover {
+    background-color: #169c84;
+    color: white;
+}
+
+#nameKeys>.is-depressed{
+    background-color: rgb(199, 199, 199);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
 }
