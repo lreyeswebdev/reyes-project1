@@ -22,7 +22,7 @@ section {
 h1 {
     font-family: 'Dancing Script';
     font-size: 4rem;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     margin-top: 100px;
 }
 
@@ -66,7 +66,7 @@ h2 {
     transform: translateY(4px);
 }
 
-#display {
+.display {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@ h2 {
     border-radius: 5px;
 }
 
-#displayContent {
+#displayContent, #displayInput {
     font-size: 20px;
     font-weight: 600;
 }
