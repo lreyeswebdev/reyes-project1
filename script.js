@@ -25,3 +25,16 @@ helloBtn2.onclick = () => {
         displayInput.innerHTML = "Hello, " + inputName.value;
     }
 }
+
+// Level Three
+
+const displaySelected = document.getElementById("displaySelected");
+const nameSelected = document.getElementById("nameSelected");
+const nameKeys = document.getElementById("nameKeys");
+
+nameKeys.onclick = event => {
+    if(event.target.type == "submit") {
+        nameSelected.value = event.target.innerHTML;
+    }
+}
+
