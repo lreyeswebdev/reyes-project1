@@ -42,7 +42,7 @@ h2 {
 }
 
 
-#button-div {
+.button-div {
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ label {
     box-shadow: 12px 7px 90px 0 rgba(110,123,131,.3);
     background: #e6ebe7;
     border: solid black 2px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -120,4 +120,23 @@ input[type=text] {
     text-align: center;
     font-size: 15px;
     font-weight: 600;
+}
+
+#submitBtn {
+    padding: 10px 30px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 9px #999;
+}
+
+#submitBtn:hover {background-color: #acb6e5}
+
+#submitBtn:active {
+    background-color: #acb6e5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
