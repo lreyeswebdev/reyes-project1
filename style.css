@@ -80,7 +80,7 @@ h2 {
     border-radius: 5px;
 }
 
-#displayContent, #displayInput {
+#displayContent, #displayInput, #displaySelected {
     font-size: 20px;
     font-weight: 600;
 }

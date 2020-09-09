@@ -32,9 +32,19 @@ const displaySelected = document.getElementById("displaySelected");
 const nameSelected = document.getElementById("nameSelected");
 const nameKeys = document.getElementById("nameKeys");
 
+const helloBtn3 = document.getElementById("helloBtn3");
+const goodbyeBtn = document.getElementById("goodbyeBtn");
+
 nameKeys.onclick = event => {
     if(event.target.type == "submit") {
         nameSelected.value = event.target.innerHTML;
     }
 }
 
+helloBtn3.onclick = () => {
+    displaySelected.innerHTML = "Hello " + nameSelected.value;
+}
+
+goodbyeBtn.onclick = () => {
+    displaySelected.innerHTML = "Good bye " + nameSelected.value;
+}
