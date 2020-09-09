@@ -49,6 +49,9 @@ goodbyeBtn.onclick = () => {
     if (goodbyeBtn.innerHTML === "Good bye") {
         displaySelected.innerHTML = "Good bye " + nameSelected.value;
         goodbyeBtn.innerHTML = "Clear";
+    } else {
+        displaySelected.innerHTML = "";
+        nameSelected.value = "";
+        goodbyeBtn.innerHTML = "Good bye";
     }
-    
 }
